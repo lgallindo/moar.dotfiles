@@ -1,0 +1,23 @@
+[dotfiles]
+repository = ~/Dotfiles
+ignore = [
+	'.git'
+	,'.gitignore'
+	,'*.lock'
+	,'*.old'
+	,'*.bak'
+	,'*.log'
+	,'*_click'
+	,'*_history'
+	,'*recently*'
+	,'*.swp']
+externals = {
+	'.uml':	'/tmp'}
+packages = [
+	'config'
+	,'zotero'
+	,'vim'
+	,'themes'
+	,'rstudio-desktop'
+	,'continuum'
+	,'icons']

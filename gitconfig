@@ -1,0 +1,9 @@
+[user]
+	email = lucas.soares@ufpe.br
+	name = Lucas Gallindo
+[push]
+	default = matching
+[alias]
+	correct = commit --amend --no-edit -v
+	upall = push origin --all -u -v
+	addall = add . -A -v
